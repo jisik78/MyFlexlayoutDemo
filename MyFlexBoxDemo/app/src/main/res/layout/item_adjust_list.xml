@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:padding="2dp"
+    android:layout_height="wrap_content">
+
+    <!--  父布局子布局的宽高参数对显示效果有影响 , scaleType 也有影响 -->
+    <ImageView
+        android:id="@+id/iv_adjust"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="1dp"
+        android:scaleType="centerCrop" />
+
+<!--    <TextView-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        android:layout_below="@id/iv_adjust"-->
+<!--        android:text="12345678900987654321"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"/>-->
+
+</RelativeLayout>
